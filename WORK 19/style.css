@@ -1,0 +1,217 @@
+* {
+    padding: 0%;
+    margin: 0%;
+}
+
+.calculator-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+
+}
+
+.cal-cont {
+    width: 30%;
+    height: 70%;
+    box-shadow: 0px 0px 10px rgb(211, 211, 211);
+
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: gray;
+}
+
+.cont {
+    width: 90%;
+    height: 95%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.row-1 {
+    width: 100%;
+    height: 15%;
+    border: 2px solid white;
+    border-radius: 3px;
+    box-shadow: 0px 0px 5px rgb(211, 211, 211);
+    background-color: rgb(183, 183, 183);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.clear {
+    width: 10%;
+    color: white;
+    font-size: 3rem;
+    display: flex;
+    background-color: transparent;
+    border: none;
+}
+
+.screen {
+    height: 100%;
+    width: 80%;
+    font-size: 2rem;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+
+.screen input {
+    width: 85%;
+    height: 60%;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 0px 0px 5px white;
+    font-size: 2.5rem;
+    text-align: right;
+    color: white;
+
+}
+
+.row-2 {
+    width: 100%;
+    height: 80%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    gap: 10px;
+    position: relative;
+}
+
+.row-2 button {
+    border-radius: 5px;
+    border: none;
+    box-shadow: 0px 0px 5px rgb(211, 211, 211);
+}
+
+
+.o6,
+.o7,
+.o10,
+.o11 {
+    background-color: #ffd23f;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+    font-weight: 900;
+    color: white;
+}
+
+.o6:hover {
+    background-color: rgba(0, 0, 0, 0.4);
+}
+.o7:hover {
+    background-color: rgba(0, 0, 0, 0.4);
+}
+.o10:hover{
+    background-color: rgba(0, 0, 0, 0.4);
+}
+.o11:hover {
+    background-color: rgba(0, 0, 0, 0.4);    
+}
+
+.o5,
+.o9,
+.o13,
+.o14,
+.o12,
+.o8,
+.o1,
+.o2,
+.o3,
+.o4,
+.o15,
+.o16 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+    background: linear-gradient(to left, rgb(47, 255, 245), white);
+    color: white;
+}
+
+
+.o15:hover {
+    background: linear-gradient(to right, rgb(47, 255, 245), white);
+}
+
+.o4:hover {
+    background: linear-gradient(to right, rgb(47, 255, 245), white);
+}
+
+.o3:hover {
+    background: linear-gradient(to right, rgb(47, 255, 245), white);
+}
+
+.o2:hover {
+    background: linear-gradient(to right, rgb(47, 255, 245), white);
+}
+
+.o1:hover {
+    background: linear-gradient(to right, rgb(47, 255, 245), white);
+}
+
+.o8:hover {
+    background: linear-gradient(to right, rgb(47, 255, 245), white);
+}
+
+.o12:hover {
+    background: linear-gradient(to right, rgb(47, 255, 245), white);
+}
+
+.o14:hover {
+    background: linear-gradient(to right, rgb(47, 255, 245), white);
+}
+
+.o13:hover {
+    background: linear-gradient(to right, rgb(47, 255, 245), white);
+}
+
+.o9:hover {
+    background: linear-gradient(to right, rgb(47, 255, 245), white);
+}
+
+.o5:hover {
+    background: linear-gradient(to right, rgb(47, 255, 245), white);
+}
+
+.o16:hover {
+    background: linear-gradient(to right, rgb(47, 255, 245), white);
+}
+
+.o17 {
+    position: absolute;
+    top: 52%;
+    left: 47%;
+    width: 6%;
+    height: 9%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: grey;
+    border-radius: 5px;
+    border: none;
+}
+
+.oo17 {
+    width: 80%;
+    height: 75%;
+    font-size: 3rem;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.4);
+    border-radius: 5px;
+    border: none;
+}
+
+.oo17:hover {
+    background-color: #ffd23f;
+
+}
